@@ -1,0 +1,95 @@
+<div>
+    <mat-card>
+        <mat-card-title>User Registration</mat-card-title>
+        <mat-card-content>
+            <form class="example-form" [formGroup]="reactiveForm" (ngSubmit)="RegisterUser()">
+             
+              <mat-form-field class=" example-full-width">
+                <mat-label>FirstName</mat-label>
+                <input type="text"  formControlName="FirstName" matInput ngModel  >
+              </mat-form-field>
+
+              <mat-form-field class=" example-full-width">
+                <mat-label>LastName</mat-label>
+                <input type="text"  formControlName="LastName" matInput ngModel  >
+              </mat-form-field>
+
+                  <mat-form-field class="mt-4 example-full-width">
+                  <mat-label>Email</mat-label>
+                  <input type="email"  formControlName="Email" matInput ngModel  required>
+                </mat-form-field>
+
+                  <mat-form-field class="example-full-width mt-3">
+                    <mat-label>Password</mat-label>
+                    <input matInput type="password"  formControlName="Password" ngModel>
+                  </mat-form-field>
+
+                  <mat-form-field class=" example-full-width">
+                    <mat-label>Contact</mat-label>
+                    <input type="text"  formControlName="Contact" matInput ngModel  >
+                  </mat-form-field>
+
+                  <mat-form-field>
+                    <mat-label>Date Of Birth</mat-label>
+                    <input matInput [matDatepicker]="picker" formControlName="DateOfBirth" >
+                    <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+
+                  <mat-radio-group aria-label="Select an option" formControlName="Gender">
+                    <div class="text-secondary" style="background-color: whitesmoke;padding: 15px;font-size: 17px;">
+                      <mat-label  >Gender<sup> *</sup></mat-label><br>
+                      <mat-radio-button id="male" value="Male">Male</mat-radio-button>
+                      <mat-radio-button id="female" value="Female">Female</mat-radio-button>
+                    </div>
+                  </mat-radio-group>
+
+
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Address</mat-label>
+                    <textarea  formControlName="Address" matInput placeholder="House No., Road, Near By Place" ></textarea>
+                  </mat-form-field>
+  
+                  <mat-form-field>
+                    <mat-label>Department</mat-label>
+                    <mat-select formControlName="DepartmentId">
+                      <mat-option *ngFor="let item of Department" [value]="item.id">{{item.departmentName}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+                  <mat-form-field>
+                    <mat-label>Country</mat-label>
+                    <mat-select  formControlName="CountryId" (valueChange)="GetStates($event)">
+                      <mat-option *ngFor="let item of Country"  [value]="item.id">{{item.countryName}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+  
+                  <mat-form-field>
+                    <mat-label>State</mat-label>
+                    <mat-select  formControlName="StateId"  (valueChange)="GetCities($event)">
+                      <mat-option *ngFor="let item of State"  [value]="item.id">{{item.stateName}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+  
+                  <mat-form-field>
+                    <mat-label>City</mat-label>
+                    <mat-select  formControlName="CityId"    >
+                      <mat-option *ngFor="let item of City" [value]="item.id">{{item.cityName}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+  
+                  <div class="mb-3 text-secondary"  style="background-color: whitesmoke;padding: 15px;font-size: 17px;">
+                    <label for="">Profile Pic<sup> *</sup></label>
+                    <input  formControlName="Image" class="form-control mt-2" type="file" id="formFile"  accept="image/*" (change)="ImageType($event)">
+                  </div>
+
+                  <div class="text-center mt-3">
+                    <button type="submit" class="m-1" mat-raised-button color="primary" >Register</button>
+                    <a routerLink="login" class="m-1"  mat-raised-button color="accent">Login</a>
+                </div>
+
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

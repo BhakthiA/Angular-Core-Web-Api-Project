@@ -1,0 +1,17 @@
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Data.deps.json
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Data.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Data.pdb
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Model.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Model.pdb
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.csproj.AssemblyReference.cache
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.AssemblyInfoInputs.cache
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.AssemblyInfo.cs
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.csproj.CoreCompileInputs.cache
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.csproj.CopyComplete
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\refint\JWT.Data.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\JWT.Data.pdb
+C:\Users\sit391\source\repos\JWT\JWT.Data\obj\Debug\net6.0\ref\JWT.Data.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Common.dll
+C:\Users\sit391\source\repos\JWT\JWT.Data\bin\Debug\net6.0\JWT.Common.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFathVXdQJNtYMQGI45/0VoSA1R+aUaFuZfmok5y9sQZrjNLedPGsD2umBo8Qc8QO2nAcIiiGI6wgzaRN3lUTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sit391\\source\\repos\\JWT\\JWT.Model\\JWT.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

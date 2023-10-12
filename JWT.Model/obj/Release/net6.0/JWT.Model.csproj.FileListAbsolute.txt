@@ -1,0 +1,12 @@
+C:\Users\sit391\source\repos\JWT\JWT.Model\bin\Release\net6.0\JWT.Model.deps.json
+C:\Users\sit391\source\repos\JWT\JWT.Model\bin\Release\net6.0\JWT.Model.dll
+C:\Users\sit391\source\repos\JWT\JWT.Model\bin\Release\net6.0\JWT.Model.pdb
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.csproj.AssemblyReference.cache
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.AssemblyInfoInputs.cache
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.AssemblyInfo.cs
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.csproj.CoreCompileInputs.cache
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.dll
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\refint\JWT.Model.dll
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\JWT.Model.pdb
+C:\Users\sit391\source\repos\JWT\JWT.Model\obj\Release\net6.0\ref\JWT.Model.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "296CKiKzDNrG95Xk424mRa/JMs4l9vPP7/tE6G11MW5MUul1bivQoFqr1k+S9DfQXPtP/Qpyc6/zuvMVElETsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sit391\\source\\repos\\JWT\\JWT.Common\\JWT.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.0\\microsoft.identitymodel.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.0\\microsoft.identitymodel.jsonwebtokens.7.0.0.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.0\\microsoft.identitymodel.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.0\\microsoft.identitymodel.tokens.7.0.0.nupkg.sha512",
+    "C:\\Users\\sit391\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.0\\system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
